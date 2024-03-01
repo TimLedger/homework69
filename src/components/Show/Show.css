@@ -1,0 +1,27 @@
+.show-frame{
+    width: 190px;
+    border-radius: 15px;
+    padding: 15px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    background: rgb(255, 255, 255, 0.1);
+}
+
+.show-img{
+    width: 150px;
+    height: 225px;
+    border-radius: 15px;
+}
+
+.show-info{
+    width: 150px;
+}
+
+.show-title{
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
