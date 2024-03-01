@@ -2,8 +2,8 @@ import React from 'react';
 import { Route, Routes } from "react-router-dom";
 import Header from './components/Header/Header';
 import Home from './containers/Home/Home';
-import Show from './containers/Show/Show';
 import NotFound from './containers/NotFound/NotFound';
+import SelectedShow from './containers/SelectedShow/SelectedShow';
 import "./App.css";
 
 const App: React.FC = () => {
@@ -14,7 +14,7 @@ const App: React.FC = () => {
         <div className="page-body">
           <Routes>
             <Route path="/" element={<Home />}>
-              <Route path="shows/:id" element={<Show />} />
+              <Route path="shows/:id" element={<SelectedShow />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
